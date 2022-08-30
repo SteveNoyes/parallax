@@ -1,22 +1,21 @@
-# CSS Variables
-
-
-## Installation
-none
+# Parallax
+I know at some point I will hate myself for putting
+line numbers in my js comments.
 
 ## Description
 
-Using:
+Five images layered over each other moving at different
+speeds that the user can alter with range 
 
+Using:
 JavaScript
-CSS
-HTML
+CSS3
+HTML/Emmet
 
 ## Challenges & Future Implementation
-
-
-## Usage
-
+Following along with the tutorial was probably the hardest
+part. I understand what the code is doing as I go line by
+line but could I write it myself.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
