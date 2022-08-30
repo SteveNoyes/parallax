@@ -71,7 +71,8 @@ function animate() {
   ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
   gameObjects.forEach(object => {
-    // for each item in the array
+    // for each item in the array update and draw their current location
+    // every time this runs
     object.update();
     object.draw();
   })
@@ -80,7 +81,8 @@ function animate() {
   // increment each iteration the frame will move left to right.
   // (or 'backwards' relative to users gameplay)
   gameFrame--;
-  // recursively current animation frame
+  // recursively call animate
   requestAnimationFrame(animate);
 };
+// start
 animate();
