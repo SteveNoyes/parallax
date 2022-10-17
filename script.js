@@ -1,4 +1,5 @@
 // store canvas from html
+// store canvas from html
 const canvas = document.getElementById('canvas0');
 // give canvas 2d properties
 const ctx = canvas.getContext('2d');
