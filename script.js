@@ -1,15 +1,18 @@
 // store canvas from html
 // store canvas from html
 const canvas = document.getElementById('canvas0');
-// give canvas 2d properties
+// give canvas 
+// 2d properties
 const ctx = canvas.getContext('2d');
-// set initial width and height of canvas
+// set initial width 
+// and height of canvas
 const CANVAS_WIDTH = canvas.width = 800;
 const CANVAS_HEIGHT = canvas.height = 700;
 // setting initial speed
 let gameSpeed = 5;
 
-// setting background layers to background images
+// setting background layers 
+// to background images
 const backgroundLayer1 = new Image();
 backgroundLayer1.src = '/img/layer-1.png'
 const backgroundLayer2 = new Image();
