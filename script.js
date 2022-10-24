@@ -4,6 +4,7 @@ const canvas = document.getElementById('canvas0');
 const ctx = canvas.getContext('2d');
 // set initial width and height of canvas
 const CANVAS_WIDTH = canvas.width = 800;
+// left sample
 const CANVAS_HEIGHT = canvas.height = 700;
 // setting initial speed
 let gameSpeed = 5;
